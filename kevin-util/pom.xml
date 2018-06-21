@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.cn.kevin.framework</groupId>
+        <artifactId>kevin-framework</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    
+    <artifactId>kevin-util</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <!--版本号-->
+    <properties>
+        <!-- poi -->
+        <apache-poi.version>3.8-beta5</apache-poi.version>
+        <apache.xmlbeans.version>2.3.0</apache.xmlbeans.version>
+    </properties>
+
+    <dependencies>
+        <!-- start poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${apache-poi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-schemas</artifactId>
+            <version>${apache-poi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${apache-poi.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>${apache.xmlbeans.version}</version>
+        </dependency>
+        <!-- end poi -->
+
+        <!--spring core 使用一些里面的工具-->
+
+    </dependencies>
+</project>
