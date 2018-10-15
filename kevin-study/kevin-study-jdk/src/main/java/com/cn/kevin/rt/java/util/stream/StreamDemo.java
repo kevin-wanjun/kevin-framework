@@ -67,8 +67,6 @@ public class StreamDemo {
             tempMap.get(s).stream().forEach(x -> System.out.println(x));
         }
 
-        Optional<Person> optional = null;
-
         Map<Boolean, List<Integer>> collectGroup = Stream.of(1, 2, 3, 4)
                 .collect(Collectors.groupingBy(it -> it > 3));
         System.out.println("collectGroup : " + collectGroup);

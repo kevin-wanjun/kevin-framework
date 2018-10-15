@@ -47,5 +47,11 @@
 
         <!--spring core 使用一些里面的工具-->
 
+        <!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 </project>
